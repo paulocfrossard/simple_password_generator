@@ -1,4 +1,5 @@
 # This is a sample password generator in Python
+
 import sys
 
 import passwd_create
