@@ -7,7 +7,7 @@ import passwd_strength
 
 while True:
     try:
-        if len(sys.argv) > 4 and sys.argv[1].isdecimal():
+        if len(sys.argv) > 1 and sys.argv[1].isdecimal():
             tam = int(sys.argv[1])
         else:
             tam = int(input("Enter size of password: "))
